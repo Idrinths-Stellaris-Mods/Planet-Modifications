@@ -1,0 +1,216 @@
+planet_edict = {
+	name = "idrinthplanetmodifications_enlarge_planet_tiny"
+	influence_cost = 300
+	length = 360
+	effect = {
+            planet_event = { id = idrinthplanetmodifications.101 }
+        }
+	modifier = {
+		pop_happiness = -0.05
+		tile_resource_minerals_mult = -0.75
+		tile_resource_energy_mult = -0.75
+	}
+	
+	potential = {
+			planet_size < 5
+	}
+        allow = {
+            owner = {
+                has_country_resource = {
+                    type = energy
+                    amount > 1000
+                }
+            }
+            owner = {
+                has_country_resource = {
+                    type = minerals
+                    amount > 1000
+                }
+            }
+        }
+	
+	ai_weight = {
+		weight = 100			
+	}	
+}
+planet_edict = {
+	name = "idrinthplanetmodifications_enlarge_planet_small"
+	influence_cost = 300
+	length = 480
+	effect = {
+            planet_event = { id = idrinthplanetmodifications.102 }
+        }
+	modifier = {
+		pop_happiness = -0.05
+		tile_resource_minerals_mult = -0.8
+		tile_resource_energy_mult = -0.8
+	}
+	
+	potential = {
+			planet_size < 10
+			planet_size > 4
+	}
+        allow = {
+            owner = {
+                has_country_resource = {
+                    type = energy
+                    amount > 3000
+                }
+            }
+            owner = {
+                has_country_resource = {
+                    type = minerals
+                    amount > 3000
+                }
+            }
+        }
+	
+	ai_weight = {
+		weight = 100			
+	}	
+}
+planet_edict = {
+	name = "idrinthplanetmodifications_enlarge_planet_middle"
+	influence_cost = 300
+	length = 600
+	effect = {
+            planet_event = { id = idrinthplanetmodifications.103 }
+        }
+	modifier = {
+		pop_happiness = -0.05
+		tile_resource_minerals_mult = -0.85
+		tile_resource_energy_mult = -0.85
+	}
+	
+	potential = {
+			planet_size < 15
+			planet_size > 9
+	}
+        allow = {
+            owner = {
+                has_country_resource = {
+                    type = energy
+                    amount > 6000
+                }
+            }
+            owner = {
+                has_country_resource = {
+                    type = minerals
+                    amount > 6000
+                }
+            }
+        }
+	
+	ai_weight = {
+		weight = 95
+	}	
+}
+planet_edict = {
+	name = "idrinthplanetmodifications_enlarge_planet_big"
+	influence_cost = 300
+	length = 720
+	effect = {
+            planet_event = { id = idrinthplanetmodifications.104 }
+        }
+	modifier = {
+		pop_happiness = -0.05
+		tile_resource_minerals_mult = -0.9
+		tile_resource_energy_mult = -0.9
+	}
+	
+	potential = {
+			planet_size < 20
+			planet_size > 14
+	}
+        allow = {
+            owner = {
+                has_country_resource = {
+                    type = energy
+                    amount > 10000
+                }
+            }
+            owner = {
+                has_country_resource = {
+                    type = minerals
+                    amount > 10000
+                }
+            }
+        }
+	
+	ai_weight = {
+		weight = 90
+	}	
+}
+planet_edict = {
+	name = "idrinthplanetmodifications_enlarge_planet_large"
+	influence_cost = 300
+	length = 840
+	effect = {
+            planet_event = { id = idrinthplanetmodifications.105 }
+        }
+	modifier = {
+		pop_happiness = -0.05
+		tile_resource_minerals_mult = -0.95
+		tile_resource_energy_mult = -0.95
+	}
+	
+	potential = {
+			planet_size < 25
+			planet_size > 19
+	}
+        allow = {
+            owner = {
+                has_country_resource = {
+                    type = energy
+                    amount > 15000
+                }
+            }
+            owner = {
+                has_country_resource = {
+                    type = minerals
+                    amount > 15000
+                }
+            }
+        }
+	
+	ai_weight = {
+		weight = 85
+	}	
+}
+planet_edict = {
+	name = "idrinthplanetmodifications_mod_planet"
+	influence_cost = 100
+	length = 30
+	effect = {
+            planet_event = { id = idrinthplanetmodifications.200 }
+        }
+	modifier = {
+		pop_happiness = +0.05
+		tile_resource_minerals_mult = -0.95
+		tile_resource_energy_mult = -0.95
+	}
+	
+	potential = {
+		IF = {
+			planet_size > 10
+		}
+	}
+        allow = {
+            owner = {
+                has_country_resource = {
+                    type = energy
+                    amount > 5000
+                }
+            }
+            owner = {
+                has_country_resource = {
+                    type = minerals
+                    amount > 5000
+                }
+            }
+        }
+	
+	ai_weight = {
+		weight = 75
+	}	
+}

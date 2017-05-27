@@ -1,0 +1,13 @@
+﻿l_german:
+ edict_idrinthplanetmodifications_enlarge_planet_large:0 "Planet vergrößern"
+ edict_idrinthplanetmodifications_enlarge_planet_large_desc:0 "Kostet 15k Energie und Mineralien"
+ edict_idrinthplanetmodifications_enlarge_planet_big:0 "Planet vergrößern"
+ edict_idrinthplanetmodifications_enlarge_planet_big_desc:0 "Kostet 10k Energie und Mineralien"
+ edict_idrinthplanetmodifications_enlarge_planet_medium:0 "Planet vergrößern"
+ edict_idrinthplanetmodifications_enlarge_planet_medium_desc:0 "Kostet 6k Energie und Mineralien"
+ edict_idrinthplanetmodifications_enlarge_planet_small:0 "Planet vergrößern"
+ edict_idrinthplanetmodifications_enlarge_planet_small_desc:0 "Kostet 3k Energie und Mineralien"
+ edict_idrinthplanetmodifications_enlarge_planet_tiny:0 "Planet vergrößern"
+ edict_idrinthplanetmodifications_enlarge_planet_tiny_desc:0 "Kostet 1k Energie und Mineralien"
+ edict_idrinthplanetmodifications_mod_planet:0 "Zufäligen Effekt zum Planeten hinzufügen"
+ edict_idrinthplanetmodifications_mod_planet_desc:0 "Kostet 5k Energie and Mineralien"

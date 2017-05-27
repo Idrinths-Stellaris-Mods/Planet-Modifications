@@ -1,0 +1,68 @@
+# food
+idrinthplanetmodifications_gene_modded_fauna = {
+    tile_resource_food_mult = 0.1
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+idrinthplanetmodifications_gene_modded_fauna_fail = {
+    tile_resource_food_mult = -0.25
+    pop_happiness = -0.1
+    pop_growth = -0.1
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+# growth+happiness
+idrinthplanetmodifications_restored_nature = {
+    pop_happiness = 0.025
+    pop_growth = 0.025
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+idrinthplanetmodifications_restored_nature_fail = {
+    pop_happiness = -0.1
+    pop_growth = -0.2
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+# resources
+idrinthplanetmodifications_designed_bacteria = {
+    tile_resource_minerals_mult = 0.1
+    tile_resource_food_mult = -0.05
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+idrinthplanetmodifications_designed_bacteria_fail = {
+    pop_happiness = -0.1
+    pop_growth = -0.2
+    tile_resource_food_mult = -0.5
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+# unity+influence
+idrinthplanetmodifications_light_symbiotic_telepathy = {
+    tile_resource_influence_mult = 0.1
+    tile_resource_unity_mult = 0.1
+    goverment_ethic_attraction = 0.1
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+idrinthplanetmodifications_light_symbiotic_telepathy_fail = {
+    tile_resource_influence_mult = -0.25
+    tile_resource_unity_mult = -0.5
+    pop_happiness = -0.5
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+# energy
+idrinthplanetmodifications_clearer_sky = {
+    tile_resource_energy_mult = 0.2
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}
+idrinthplanetmodifications_clearer_sky_fail = {
+    tile_resource_energy_mult = -0.5
+    tile_resource_food_mult = -0.5
+    pop_happiness = -0.15
+    icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
+    icon_frame = 2
+}

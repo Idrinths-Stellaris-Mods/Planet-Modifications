@@ -1,0 +1,45 @@
+# food
+pm_idrinthplanetmodifications_gene_modded_fauna = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_gene_modded_fauna"
+}
+pm_idrinthplanetmodifications_gene_modded_fauna_fail = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_gene_modded_fauna_fail"
+}
+# growth+happiness
+pm_idrinthplanetmodifications_restored_nature = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_restored_nature"
+}
+pm_idrinthplanetmodifications_restored_nature_fail = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_restored_nature_fail"
+}
+# resources
+pm_idrinthplanetmodifications_designed_bacteria = {
+	spawn_chance = {}	
+	modifier = "pm_idrinthplanetmodifications_designed_bacteria"
+}
+pm_idrinthplanetmodifications_designed_bacteria_fail = {
+	spawn_chance = {}	
+	modifier = "pm_idrinthplanetmodifications_designed_bacteria_fail"
+}
+# unity+influence
+pm_idrinthplanetmodifications_light_symbiotic_telepathy = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_light_symbiotic_telepathy"
+}
+pm_idrinthplanetmodifications_light_symbiotic_telepathy_fail = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_light_symbiotic_telepathy_fail"
+}
+# energy
+pm_idrinthplanetmodifications_clearer_sky = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_clearer_sky"
+}
+pm_idrinthplanetmodifications_clearer_sky_fail = {
+	spawn_chance = {}	
+	modifier = "idrinthplanetmodifications_clearer_sky_fail"
+}

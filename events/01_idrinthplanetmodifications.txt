@@ -1,0 +1,147 @@
+namespace = idrinthplanetmodifications
+
+planet_event = {
+	id = idrinthplanetmodifications.101
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+        immediate = {
+            change_planet_size = 1
+            owner = {
+                add_minerals = -1000
+                add_energy = -1000
+            }
+	}
+}
+planet_event = {
+	id = idrinthplanetmodifications.102
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+        immediate = {
+            change_planet_size = 1
+            owner = {
+                add_minerals = -3000
+                add_energy = -3000
+            }
+	}
+}
+planet_event = {
+	id = idrinthplanetmodifications.103
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+        immediate = {
+            change_planet_size = 1
+            owner = {
+                add_minerals = -6000
+                add_energy = -6000
+            }
+	}
+}
+planet_event = {
+	id = idrinthplanetmodifications.104
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+        immediate = {
+            change_planet_size = 1
+            owner = {
+                add_minerals = -10000
+                add_energy = -10000
+            }
+	}
+}
+planet_event = {
+	id = idrinthplanetmodifications.106
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+        immediate = {
+            change_planet_size = 1
+            owner = {
+                add_minerals = -15000
+                add_energy = -15000
+            }
+	}
+}
+planet_event = {
+	id = idrinthplanetmodifications.200
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+        immediate = {
+            random_list = {
+                2 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_gene_modded_fauna_fail
+                        days = 1800
+                    }
+                }
+                2 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_restored_nature_fail
+                        days = 1800
+                    }
+                }
+                2 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_designed_bacteria_fail
+                        days = 1800
+                    }
+                }
+                2 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_light_symbiotic_telepathy_fail
+                        days = 1800
+                    }
+                }
+                2 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_clearer_sky_fail
+                        days = 1800
+                    }
+                }
+                6 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_gene_modded_fauna
+                        days = 1800
+                    }
+                }
+                6 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_restored_nature
+                        days = 1800
+                    }
+                }
+                6 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_designed_bacteria
+                        days = 1800
+                    }
+                }
+                6 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_light_symbiotic_telepathy
+                        days = 1800
+                    }
+                }
+                6 = {
+                    add_modifier = {
+                        modifier = idrinthplanetmodifications_clearer_sky
+                        days = 1800
+                    }
+                }
+            }
+            owner = {
+                add_minerals = -5000
+                add_energy = -5000
+            }
+	}
+}
