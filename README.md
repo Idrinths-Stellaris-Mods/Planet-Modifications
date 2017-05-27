@@ -1,2 +1,5 @@
 # Stellaris-Planet-Modifications
-Improvements to stations, so that they stay more useful in the late game
+Improvements to planet options, adding the following for now:
+
+- size upgrades
+- medium term boni for planets
