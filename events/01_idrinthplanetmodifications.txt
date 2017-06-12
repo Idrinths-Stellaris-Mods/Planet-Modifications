@@ -57,7 +57,7 @@ planet_event = {
 	}
 }
 planet_event = {
-	id = idrinthplanetmodifications.106
+	id = idrinthplanetmodifications.105
 	hide_window = yes
 	is_triggered_only = yes
 	location = ROOT
