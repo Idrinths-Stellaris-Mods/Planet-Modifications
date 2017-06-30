@@ -43,3 +43,8 @@ pm_idrinthplanetmodifications_clearer_sky_fail = {
 	spawn_chance = {}	
 	modifier = "idrinthplanetmodifications_clearer_sky_fail"
 }
+# gaia
+pm_idrinthplanetmodifications_gaia = {
+    spawn_chance = {}	
+    modifier = "idrinthplanetmodifications_gaia"
+}

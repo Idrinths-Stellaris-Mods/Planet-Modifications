@@ -1,0 +1,33 @@
+namespace = idrinthplanetmodifications
+
+planet_event = {
+	id = idrinthplanetmodifications.21
+	hide_window = yes
+	location = ROOT
+
+        trigger = {
+            is_planet_class = pc_gaia
+            NOT = { has_modifier = idrinthplanetmodifications_gaia }
+        }
+	
+        immediate = {
+            add_modifier = {
+                modifier = idrinthplanetmodifications_gaia
+                days = -1
+            }
+	}
+}
+planet_event = {
+	id = idrinthplanetmodifications.22
+	hide_window = yes
+	location = ROOT
+
+        trigger = {
+            NOT = { is_planet_class = pc_gaia }
+            has_modifier = idrinthplanetmodifications_gaia
+        }
+	
+        immediate = {
+            remove_modifier = idrinthplanetmodifications_gaia
+	}
+}
